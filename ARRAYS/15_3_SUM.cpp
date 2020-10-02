@@ -55,11 +55,11 @@ public:
                         k--;
                     }
                     else if(nums[i]+nums[j]+nums[k] < 0){
-                        while(j<k && nums[j] == nums[j+1] ) j++;
+                      //  while(j<k && nums[j] == nums[j+1] ) j++;  THIS IS OPTIONAL
                         j++;
                     }
                     else{
-                        while(j<k && nums[k] == nums[k-1]) k--;
+                       // while(j<k && nums[k] == nums[k-1]) k--; THIS IS OPTIONAL
                         k--;
                     }
                 }
