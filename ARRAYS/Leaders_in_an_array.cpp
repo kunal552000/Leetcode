@@ -50,7 +50,7 @@ Constraints:
 //CODE
 
 
-lass Solution{
+class Solution{
     //Function to find the leaders in the array.
     public:
     vector<int> leaders(int a[], int n){
