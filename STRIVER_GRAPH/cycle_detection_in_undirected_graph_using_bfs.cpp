@@ -68,8 +68,11 @@ int main()
 
         for(int i = 1; i <= n; i++)
     	{
-        	if(checkcycle(i,n,visited,adj))
-            		return 1;
+		if(visited[i] == 0)
+		{
+        		if(checkcycle(i,n,visited,adj))
+            			return 1;
+		}
     	}
 
 
